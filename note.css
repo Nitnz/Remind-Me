@@ -1,0 +1,112 @@
+body{
+        font-family: "Poppins", serif;
+        font-weight: 600;
+        font-style: normal;
+}
+.box1{
+    width: 100%;
+    height:10%;
+    background-color: #6ac1e47a;
+}
+.box1 h1{
+    text-align: center;
+    padding: 5px;
+}
+.taskh2{
+    font-family: cursive;
+}
+.container{
+    padding: 10px;
+}
+.note-container{
+   padding: 15px;
+   width: 20%;
+   background-color: black;
+   color: white;
+   border-radius:15px ;
+   margin: 30px;
+   display: inline-block;
+   vertical-align: top;
+}
+.note-container h2{
+    color: #64d3fff8;
+}
+.note-container button{
+    border-radius: 10px;
+    border: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-top: 5px;
+    background-color: #c3eeff;
+    font-weight: bold;
+}
+.addbutton{
+    border-radius: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 2px;
+    padding-top: 2px;
+    font-size: 40px;
+    background-color:  #9ce3ffbc;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border: none;
+}
+.popupoverlay{
+    background-color: black;
+    opacity: 0.8;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    display: none;
+}
+.popupbox{
+    background-color:  #bfedffe2;
+    padding: 15px;
+    border-radius: 10px;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    display: none;
+}
+.popupbox input{
+    background-color: transparent;
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    border-bottom: solid black 2px;
+}
+.popupbox textarea{
+    background-color: transparent;
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    border-bottom: solid black 2px;
+}
+.addtaskstyle{
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #91d9e4;
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.canceltaskstyle{
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #91d9e4;
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+

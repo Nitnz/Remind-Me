@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>Reminder</title>
+    <link rel="stylesheet" href="note.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="box1">
+         <h1 style="font-family: 'Times New Roman', Times, serif; font-variant: small-caps;"> Just a Reminder</h1>
+    </div>
+    <div class="container">
+        <div class="note-container">
+            <h2 style="font-family: cursive;" class="taskh2">Task</h2>
+            <h5>05.01.2005</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quaerat, dolores rerum recusandae nihil vel suscipit optio, alias corporis odit repellendus fugit inventore quas et quo dolore eaque accusantium officiis.</p>
+            <button class="delete-button">Delete</button>
+        </div>
+    </div>
+    <div class="popupoverlay"></div>
+    <div class="popupbox">
+        <h2>Add Task</h2>
+        <form>
+            <input type="text" placeholder="Task Name" id="task-name">
+            <input type="date" placeholder="DD/MM/YEAR" id="task-date">
+            <textarea placeholder="Task Details" id="task-description"></textarea>
+            <button id="add-task" class="addtaskstyle">Add</button>
+            <button id="cancelpopup" class="canceltaskstyle">Cancel</button>
+        </form>
+    </div>
+    <button class="addbutton" id="addpopup">+</button>
+    <script src="note.js"></script>
+</body>
+</html>
+
+
+
